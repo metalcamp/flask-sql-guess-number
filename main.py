@@ -1,5 +1,4 @@
-from random import random
-
+import random
 from flask import Flask, render_template, request, make_response, redirect, url_for
 from model import User, db
 
